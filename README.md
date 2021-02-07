@@ -55,6 +55,6 @@ Python's Standard Library includes the datetime module which includes some usefu
    - Difference b/w Datetimes
      
       - Datetime Timedelta class : Python timedelta() function is present under datetime library which is generally used for calculating differences in dates and also can be used for date manipulations in Python.
-          -  `from datetime import timedelta`
+      `from datetime import timedelta`
       
       
