@@ -15,6 +15,7 @@ Python's Standard Library includes the datetime module which includes some usefu
 ## Contents :
 
   - Importing `datetime` package
+      - `from datetime import datetime`
   - Creating a datetime object
   - Datetime from String (STRING -> DATETIME)
       - `datetime.strptime(string, format_code)` : The strptime() class method takes two arguments.
@@ -31,3 +32,29 @@ Python's Standard Library includes the datetime module which includes some usefu
           1. Format code
           
           Returns a formatted string on the basis of format code.
+          
+   - Datetime now() function
+      - `datetime.now()` : It gives the current date and time.
+      
+      - Attributes :
+          1. datetime.now().year
+          2. datetime.now().month
+          3. datetime.now().day
+          4. datetime.now().hour
+          5. datetime.now().minute
+          6. datetime.now().second
+          
+   - Comparing Datetimes
+   
+      - Comparison Operators :
+          1. Less than <
+          2. More than >
+          3. Equal to ==
+          4. Not Equal to !=
+          
+   - Difference b/w Datetimes
+     
+      - Datetime Timedelta class : Python timedelta() function is present under datetime library which is generally used for calculating differences in dates and also can be used for date manipulations in Python.
+          -  `from datetime import timedelta`
+      
+      
