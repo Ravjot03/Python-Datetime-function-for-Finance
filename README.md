@@ -17,9 +17,8 @@ Python's Standard Library includes the datetime module which includes some usefu
   - Importing `datetime` package
   - Creating a datetime object
   - Datetime from String (STRING -> DATETIME)
-  
-      `datetime.strptime(string, format_code)` : The strptime() class method takes two arguments.
-          
+      - `datetime.strptime(string, format_code)` : The strptime() class method takes two arguments.
+      
           1. String (that needs to be converted)
           2. Format code
           
@@ -27,7 +26,7 @@ Python's Standard Library includes the datetime module which includes some usefu
           
   - String from Datetime (DATETIME -> STRING)
   
-      `datetime.strftime(format_code)` : The strftime() class method takes one or more format codes as an argument.
+      - `datetime.strftime(format_code)` : The strftime() class method takes one or more format codes as an argument.
       
           1. Format code
           
